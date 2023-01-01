@@ -22,7 +22,10 @@ header {
     position: sticky;
     top: 0;
     background-color: #f5f5f5;
+    /* background-color: #4682B4; */
 }
+
+/* Navigation links  */
 
 #nav-menu {
     display: flex;
@@ -35,13 +38,22 @@ header {
     text-decoration: none;
     font-size: 110%;
     color: black;
+    /* color: white; */
+    transition: 0.3s;
+}
+
+#nav-menu a:hover {
+    border: 1px solid black;
+    padding: 5px;
+    background-color: #E6E6FA;
+    box-shadow: 1px 1px grey;
 }
 
 .active {
     border: 1px solid black;
     padding: 5px;
     background-color: #E6E6FA;
-    box-shadow: 1px 1px grey;
+    box-shadow: 0px 1px 3px grey;
 }
 
 /* Footer  */
@@ -55,9 +67,14 @@ footer {
     min-height: 60px;
 }
 
+footer section, footer div {
+    background-color: #f5f5f5;
+    /* background-color: #4682B4; */
+}
+
 hr {
     border-top: 1px solid black;
-    margin: 5px 0;
+    margin-top: 5px 0;
 }
 
 .information {
@@ -65,6 +82,7 @@ hr {
     justify-content: space-between;
     height: 100%;
     font-size: 110%;
+    margin: 0 1px;
 }
 
 #opening-hours {
@@ -78,6 +96,21 @@ hr {
     align-items: center;
     margin-top: auto;
     font-size: 110%;
+}
+
+.bottom a {
+    margin-bottom: 30px;
+}
+
+#contact-button {
+    padding: 10px;
+    cursor: pointer;
+    background-color: #90EE90;
+    box-shadow: 0px 2px 3px grey;
+}
+
+#contact-button:hover {
+    background-color: #32CD32;
 }
 
 /* Media Queries  */
@@ -123,13 +156,16 @@ hr {
         height: 90px;
     }
 
+    #contact-button {
+        padding: 5px;
+        font-size: 100%;
+    }
 }
 
-/* For Smaller screen sizes, 320px wide and down  */
+/* For Smaller screen sizes, 400px wide and down  */
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 400px) {
     .information {
         font-size: 44%;
     }
-
 }
