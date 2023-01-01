@@ -80,6 +80,7 @@ hr {
 .information {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     height: 100%;
     font-size: 110%;
     margin: 0 1px;
