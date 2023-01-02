@@ -9,7 +9,7 @@
 }
 
 html {
-    width: 100%;
+    /* width: 100%; */
 }
 
 body {
@@ -26,6 +26,7 @@ header {
     position: sticky;
     top: 0;
     background-color: #f5f5f5;
+    z-index: 999;
 }
 
 /* Navigation links  */
@@ -58,9 +59,54 @@ header {
     box-shadow: 0px 1px 3px grey;
 }
 
-/* Hero-Image  */
-
 /* Landing Page  */
+
+/* Hero-Image  */
+#hero-outer {
+   height: 600px;
+   width: 100%;
+   overflow: hidden;
+   position: relative;
+}
+
+#hero-img {
+    height: 600px;
+    width: 100%;
+    animation-name: hero-zoom;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    object-fit: contain;
+    z-index: 1;
+}
+
+@keyframes hero-zoom {
+    from {
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.1);
+    }
+}
+
+#cover-text {
+    font-size: 130%;
+    letter-spacing: 2px;
+    width: 300px;
+    height: 250px;
+    padding-top: 20px;
+    padding-left: 10px;
+    background-color: rgba(63, 104, 63, 0.795);
+    bottom: 30px;
+    left: 10%;
+    position: absolute;
+    color: #E6E6FA;
+}
+
+#cover-text-two {
+    display: flex;
+    align-items: center;
+}
+
 
 /* Symptoms Section */
 
@@ -230,6 +276,14 @@ form {
 
 /* Media Queries  */
 
+/* For Large sized screens, 2600px wide and down  */
+
+@media screen and (max-width: 2600px) {
+    #hero-img {
+        background: url(../images/hero-img-landing-large.jpg) no-repeat center center;
+    }
+}
+
 /* For Medium sized screens, 950px wide and down  */
 @media screen and (max-width: 950px) {
     #nav-menu {
@@ -318,6 +372,18 @@ form {
     #contact-button {
         padding: 5px;
         font-size: 100%;
+    }
+
+    #hero-img {
+        background: url(../images/hero-img-landing-small.jpg) no-repeat center center;
+    }
+
+    #cover-text {
+        left: 0;
+        height: 150px;
+        width: 200px;
+        font-size: 70%;
+        bottom: 80px;
     }
 }
 
