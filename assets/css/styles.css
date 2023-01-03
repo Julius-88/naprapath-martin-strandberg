@@ -155,38 +155,6 @@ header {
     margin-bottom: 10px;
 }
 
-/* Treatment  */
-
-#treatments-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
- details {
-    width: 100%;
-    padding: 10px;
-    font-size: 1.5rem;
-}
-
-summary {
-    background-color:#f5f5f5;
-    cursor: pointer;
-}
-
-details p {
-    margin: 10px auto;
-    font-size: 1rem;
-}
-
-
-details ul li {
-    list-style: circle;
-    margin-left: 20px;
-    font-size: 1.2rem;
-    margin-top: 5px;
-}
-
 /* Footer  */
 
 .footer-content {
@@ -224,6 +192,46 @@ details ul li {
 
 /* General styles for repeated use */
 
+/* Display various lists of information */
+
+#information-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#information-container div {
+    margin: 10px auto;
+    border-top: 2px solid #32CD32;
+    border-bottom: 2px solid #32CD32;
+    padding: 10px;
+}
+
+ details {
+    width: 100%;
+    padding: 10px;
+    font-size: 1.5rem;
+}
+
+summary {
+    background-color:#f5f5f5;
+    cursor: pointer;
+}
+
+details p {
+    margin: 10px auto;
+    font-size: 1rem;
+}
+
+
+details ul li {
+    list-style: circle;
+    margin-left: 20px;
+    font-size: 1.2rem;
+    margin-top: 5px;
+}
+
+
 /* Hero-Image  */
 #hero-outer {
     height: 600px;
@@ -252,6 +260,8 @@ details ul li {
         transform: scale(1.1);
     }
 }
+
+/* Button */
 
 .button {
     padding: 10px;
@@ -438,6 +448,6 @@ form {
 
 @media screen and (max-width: 400px) {
     .footer-top {
-        font-size: 44%;
+        font-size: 43%;
     }
 }
