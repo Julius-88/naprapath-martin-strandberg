@@ -56,26 +56,6 @@ header {
 
 /* Landing Page  */
 
-#cover-text {
-    font-size: 130%;
-    letter-spacing: 2px;
-    width: 300px;
-    height: 250px;
-    padding-top: 20px;
-    padding-left: 10px;
-    background-color: rgba(63, 104, 63, 0.795);
-    bottom: 30px;
-    left: 10%;
-    position: absolute;
-    color: #E6E6FA;
-}
-
-#cover-text-two {
-    display: flex;
-    align-items: center;
-}
-
-
 /* Symptoms Section */
 
 #symptom-container>img {
@@ -153,6 +133,18 @@ header {
 
 #about-text p {
     margin-bottom: 10px;
+}
+
+/* Symptom Page  */
+
+#cover-text-symptom {
+    height: 200px;
+}
+
+/* Treatment Page */
+
+#cover-text-treatment {
+    height: 200px;
 }
 
 /* Footer  */
@@ -261,6 +253,25 @@ details ul li {
     }
 }
 
+.cover-text {
+    font-size: 130%;
+    letter-spacing: 2px;
+    width: 300px;
+    height: 250px;
+    padding-top: 20px;
+    padding-left: 10px;
+    background-color: rgba(63, 104, 63, 0.795);
+    bottom: 30px;
+    left: 10%;
+    position: absolute;
+    color: #E6E6FA;
+}
+
+#cover-text-two {
+    display: flex;
+    align-items: center;
+}
+
 /* Button */
 
 .button {
@@ -323,6 +334,10 @@ form {
 
     .hero-img-treatment {
         background: url(../images/hero-img-treatment-xl.jpg) no-repeat center center;
+    }
+
+    .hero-img-symptom {
+        background: url(../images/hero-img-symptom-large.jpg) no-repeat center center;
     }
 }
 
@@ -409,6 +424,9 @@ form {
     .hero-img-treatment {
         background: url(../images/hero-img-treatment-small.jpg) no-repeat center center;
     }
+    .hero-img-symptom {
+        background: url(../images/hero-img-symptom-small.jpg) no-repeat center center;
+    }
 
 
 }
@@ -432,8 +450,6 @@ form {
         padding: 5px;
         font-size: 100%;
     }
-
-
 
     #cover-text {
         left: 0;
