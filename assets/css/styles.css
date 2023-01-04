@@ -226,7 +226,7 @@ header {
     color: #32CD32;
 }
 
-/* Display various lists of information */
+/* Displays various lists of information */
 
 #information-container {
     display: flex;
@@ -396,7 +396,7 @@ form {
     }
 
     .hero-img-contact {
-        background: url(../images/hero-img-contact.jpg) no-repeat center center;
+        background: url(../images/hero-img-contact-large.jpg) no-repeat center center;
     }
 }
 
