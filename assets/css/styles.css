@@ -170,7 +170,7 @@ header {
     background-color: #f5f5f5;
     width: 90%;
     margin: 0 auto;
-    padding: 30px; 
+    padding: 30px;
     font-size: 1rem;
 }
 
@@ -222,7 +222,7 @@ header {
 }
 
 .email:hover {
-    text-decoration:solid underline;
+    text-decoration: solid underline;
     color: #32CD32;
 }
 
@@ -241,14 +241,14 @@ header {
     padding: 10px;
 }
 
- details {
+details {
     width: 100%;
     padding: 10px;
     font-size: 1.5rem;
 }
 
 summary {
-    background-color:#f5f5f5;
+    background-color: #f5f5f5;
     cursor: pointer;
 }
 
@@ -487,6 +487,7 @@ form {
     .hero-img-treatment {
         background: url(../images/hero-img-treatment-small.jpg) no-repeat center center;
     }
+
     .hero-img-symptom {
         background: url(../images/hero-img-symptom-small.jpg) no-repeat center center;
     }
