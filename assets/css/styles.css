@@ -24,6 +24,11 @@ header {
     z-index: 999;
 }
 
+#logo {
+    width: 297px;
+    height: 62px;
+}
+
 /* Navigation links  */
 
 #nav-menu {
@@ -292,12 +297,14 @@ details ul li {
 #hero-img {
     height: 600px;
     width: 100%;
-    animation-name: hero-zoom;
-    animation-duration: 3s;
-    animation-fill-mode: forwards;
     object-fit: contain;
     z-index: 1;
     background-color: #E6E6FA;
+
+    /* Animation Effect taken from Love Running code along project given by Code Institute */
+    animation-name: hero-zoom;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
 }
 
 @keyframes hero-zoom {
@@ -327,6 +334,7 @@ details ul li {
 #cover-text-two {
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 /* Button */
@@ -340,6 +348,7 @@ details ul li {
     font-size: 1rem;
     text-decoration: none;
     display: inline-block;
+    color: black;
 }
 
 .button:hover {

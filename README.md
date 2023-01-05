@@ -1,108 +1,179 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Naprapath Martin Strandberg
 
-Welcome Julius Alamarvdashti,
+- Naprapath Martin Strandberg has created a business who's aim it is to treat, educate and help prevent injuries to all people so that they can live a healthier life. 
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+- The goal of this website is to attract a younger generation of people while 
+    being accessible to everyone.
+    
+- They will be able to find information about their particular injury, the  treatments offered, general information about the business and be able to book a session or contact the owner.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+![Image showing the website is responsive](./documentation/responsive-naprapath.jpg)
 
-## Gitpod Reminders
+## Existing Features
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+- Navigation Bar
+    - Featured on top of the website is the navigation bar. On the left corner the viewer can see the company name and logo and on the right corner they can see the various pages available.
+    - Clicking on the company name and logo will bring them back to the landing page.
+    - On the right side they can see which page they are on by it having a different background-color, border and having a bigger padding.
+    - Hovering over the website pages will make them bigger and create a similar effect as the active page they are on.
+    - The navigation bar is clearly displayed and makes the different sections easy to find. It is available on each page.
 
-`python3 -m http.server`
+![navigation bar](./documentation/readme-navigation-bar.jpg)
 
-A blue button should appear to click: _Make Public_,
+## The Header Section
 
-Another blue button should appear to click: _Open Browser_.
+- The hero image
+    - It has a zoom in animation to catch the eye of the viewer.
+    - It displays a text related to the page they are on.
+    - It contains a button that allows the viewer to book a session. Upon hovering it will change color to a darker green.
+    - It contains a number to the owner the viewer can call to ask questions or to book a session. Upon hovering it will turn green and get an underline.
+    - This section tells the user which page they are on and allows them to quickly book a session.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+### Hero Image on Landing page
 
-A blue button should appear to click: _Make Public_,
+![Hero img on landing page ](./documentation/readme-hero-img-landing.jpg)
 
-Another blue button should appear to click: _Open Browser_.
+### Hero Image on Symptom page
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+![Hero img on symptom page](./documentation/readme-hero-img-symptom.jpg)
 
-To log into the Heroku toolbelt CLI:
+### Hero Image on Treatment page
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+![Hero img on treatment page](./documentation/readme-hero-img-treatment.jpg)
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+### Hero Image on Contact page
 
-------
+![Hero img on contact page](./documentation/readme-hero-img-contact.jpg)
 
-## Release History
+## Landing Page
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+### About Me Section
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+- Introduces the viewer to the owner Martin Strandberg. They are given some information about him. This creates a familiarity with him and shows that he can be trusted since he has been in the business for a long time.
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+- There is also a button that allows the viewer to book a session. Upon hovering it will change color to a darker green.
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+![About Me Section](./documentation/readme-aboutme.jpg)
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+### Partner Section
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+- Showcases all the logos of the different companies he has a working relationship with. Re-establishing his expertice by having so many companies working with him. Thereby reinforcing trust with the viewer that he knows what he is doing.
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+![Partner Section](./documentation/readme-partners.jpg)
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+### Symptom Section
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+- Informs the viewer of the common misconception of how injuries develops and how he will go about treating them. This gives the viewer a general idea of how he works and what to expect. And reinforces a level of trust.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+- There is also a button that will take the viewer to the symptoms page, where they can learn more about their symptom. The button upon hovering will turn a darker shade of green.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+![Symptom Section](./documentation/readme-symptom-section.jpg)
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+## The Footer Section
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+- The footer holds all important general information for the user about the company.
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+- It shows the opening hours, the contact information and the address for visiting. 
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+- It also holds a button that takes the user to the contact page where they can ask a question. Upon hovering on the button it will turn a darker shade of green.
 
-------
+- Upon hovering on the email address and the phone number they will turn light green and get an underline.
 
-## FAQ about the uptime script
+- Email link
+    - If clicked on will open the viewer's email provider so that they can send a message to the owner.
 
-**Why have you added this script?**
+- Phone link
+    - If clicked upon will prompt you to call the owner.
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+- It also informs that the page is copyrighted and whom has created it. The footer section is available on every page.
 
-**How will this affect me?**
+![Footer Section](./documentation/readme-footer-section.jpg)
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+## Symptom Page
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+- Contains information about the various symptoms people have, what the signs are and how the body reacts. Upon clicking on each title a descriptive text will appear underneath it.
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+- This let's the user understand more about their situation. Thereby being able to properly talk about their problem to the owner.
 
-**So….?**
+- Also contains a small information about the first visit at the end of the page. So the viewer knows what to expect.
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+![Symptom Page](./documentation/readme-symptom-page.jpg)
 
-**Can I opt out?**
+## Treatment Page
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+- In a similar style to the symptom page, it provides information about which treatment options he offers and what ailments they are used upon. 
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+- It allows the viewer to know what they should expect during the treatments and what he is capable off.
 
-**Anything more?**
+![Treatment Page](./documentation/readme-treatment-page.jpg)
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+## Contact Page
 
----
+- Provides the user with a way to send a query to the owner. They will have to provide their full name, email address and phone number. 
 
-Happy coding!
+- The send button turns a dark green upon hovering. 
+
+- Upon completion the user will be taken to a customized respons page. Where they will be informed that this is not a real form but how they can get into contact with the owner. 
+
+- It contains his email address, phone number, the book button and a return to landing page button. Each will react the same way as previously stated while hovering.
+
+![Contact Form](./documentation/readme-contact-form.jpg)
+![Respons Page](./documentation/readme-response-page.jpg)
+
+## Additional Features & Ideas
+
+- I was considering to add a book button at the end of symptom and treatment page to allow the viewer to easier book a session. 
+
+- I was considering to change the information section of the symptom and treatment page to be in the shape of cards and stand side by side instead of underneath each other. I think this will provide a better user experience. 
+
+- After having checked in Lighthouse it would seem the pictures I have used are too big and slows down the page. I would like to fix these.
+
+- Add the owners social media accounts in the footer section.
+
+## Testing
+
+- Responsivity was tested through DevTools on Google Chrome.
+    - For mobile version flex-direction column was used to make it easier to read.
+- I have confirmed that it works on Google Chrome, Firefox and android phone.
+- The form has been tested and requires entries in every field.
+
+- Upon checking with Lighthouse it would seem the images need to be adjusted. The images taken from the owners website are of low resolution.
+
+- Images taken from [Pexel](https://www.pexels.com/sv-se/) seem to be too big. Have to find a way of fixing it without the picture becoming too pixelated. 
+
+### Validator Testing
+
+- HTML Validation was tested through [W3C](https://validator.w3.org/)
+    - During my initial test it would seem I had combined a link and a button. This has been fixed. Here is a picture of the Error ![error](./documentation/html-validator-problem-one.JPG)
+    - Upon testing the landing page I recieved this Error ![error](./documentation/html-validator-problem-two.JPG) it has been resolved now. I should have used h2 instead of figcaption.
+    - Upon a third testing, no errors were returned.
+- CSS Validation was tested through [W3C](https://jigsaw.w3.org/css-validator/#validate_by_input)
+    - No errors were returned.<p>
+    <a href="http://jigsaw.w3.org/css-validator/check/referer">
+        <img style="border:0;width:88px;height:31px"
+            src="http://jigsaw.w3.org/css-validator/images/vcss"
+            alt="Valid CSS!" />
+    </a>
+</p>
+
+- Accessibility was tested through Lighthouse in devtools. The only problem seems to be the images used are too big or too small. They need to be adjusted. 
+    - Validation for mobile ![Lighthouse for Mobile version](./documentation/lighthouse-mobile-validation.JPG)
+    - Validation for desktop ![Lighthouse for Desktop version](./documentation/lighthouse-desktop-validation.JPG)
+
+## Unfixed Bugs
+
+
+
+## Deployment
+
+- Github was used to deploy the site. [Naprapath Martin Strandberg](https://julius-88.github.io/naprapath-martin-strandberg/)
+
+## Credit
+
+- The original site that the owner owns is this: [Martin Strandberg](http://www.naprapatmartinstrandberg.se/)
+    - I used some of his text as a base and altered them. I used what information he had given about his treatments and filled out the rest using Wikipedia. 
+
+- The animation effect on the hero image was taken from Love Running Project that was provided by Code Institute.
+
+- All pictures was taken from the owners facebook page and [Pexels](https://www.pexels.com/sv-se/) and modified with [I Love IMG](https://www.iloveimg.com/)
+
