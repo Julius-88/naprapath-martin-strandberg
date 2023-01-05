@@ -120,13 +120,11 @@
 ![Contact Form](./documentation/readme-contact-form.jpg)
 ![Respons Page](./documentation/readme-response-page.jpg)
 
-## Additional Features & Ideas
+## Additional Features & Ideas to Implement
 
 - I was considering to add a book button at the end of symptom and treatment page to allow the viewer to easier book a session. 
 
 - I was considering to change the information section of the symptom and treatment page to be in the shape of cards and stand side by side instead of underneath each other. I think this will provide a better user experience. 
-
-- After having checked in Lighthouse it would seem the pictures I have used are too big and slows down the page. I would like to fix these.
 
 - Add the owners social media accounts in the footer section.
 
@@ -136,10 +134,6 @@
     - For mobile version flex-direction column was used to make it easier to read.
 - I have confirmed that it works on Google Chrome, Firefox and android phone.
 - The form has been tested and requires entries in every field.
-
-- Upon checking with Lighthouse it would seem the images need to be adjusted. The images taken from the owners website are of low resolution.
-
-- Images taken from [Pexel](https://www.pexels.com/sv-se/) seem to be too big. Have to find a way of fixing it without the picture becoming too pixelated. 
 
 ### Validator Testing
 
@@ -156,24 +150,43 @@
     </a>
 </p>
 
-- Accessibility was tested through Lighthouse in devtools. The only problem seems to be the images used are too big or too small. They need to be adjusted. 
+- Accessibility was tested through Lighthouse in devtools. 
     - Validation for mobile ![Lighthouse for Mobile version](./documentation/lighthouse-mobile-validation.JPG)
     - Validation for desktop ![Lighthouse for Desktop version](./documentation/lighthouse-desktop-validation.JPG)
 
 ## Unfixed Bugs
 
+- No unfixed bugs
 
 
 ## Deployment
 
-- Github was used to deploy the site. [Naprapath Martin Strandberg](https://julius-88.github.io/naprapath-martin-strandberg/)
+- Github was used to deploy the site [Naprapath Martin Strandberg](https://julius-88.github.io/naprapath-martin-strandberg/)
+
+1. In the GitHub repository go to *Settings* tab.
+2. On the left side under *code and automation* click on *pages*.
+3. In the middle of the page under *GitHub Pages* there is a section called *Branch*.
+Under the *Branch* title there is a button called *None*.
+4. Click on the *None* button and choose *main* and then click on the button next to it called *Save*
+
+The website will now be deployed in a couple of minutes. 
 
 ## Credit
 
+### Content
 - The original site that the owner owns is this: [Martin Strandberg](http://www.naprapatmartinstrandberg.se/)
-    - I used some of his text as a base and altered them. I used what information he had given about his treatments and filled out the rest using Wikipedia. 
+    - Since the idea was to create a new website for him, I used some of his text as a base and altered them. I used what information he had given about his treatments and filled out the rest using Wikipedia. 
 
-- The animation effect on the hero image was taken from Love Running Project that was provided by Code Institute.
+- I used a code along project we did with Code Institute as a base reference point to structure the code.
+    - It is called [Love Running](https://github.com/Code-Institute-Solutions/love-running-2.0-sourcecode)
+    - The animation effect on the hero image was taken from this project.
+
+- I used a real site for inspiration for the design of the website. [naprapatklinik018](https://naprapatklinik018.se/)
+    - I tried to imagine what the owner of the site 
+
+
+I have used a combination of [MDN Web Docs](https://developer.mozilla.org/en-US/), [W3schools](https://www.w3schools.com/) and [Code Institute's](https://codeinstitute.net/se/) learning program to learn about various code and how they should be implemented.
+
+### Media
 
 - All pictures was taken from the owners facebook page and [Pexels](https://www.pexels.com/sv-se/) and modified with [I Love IMG](https://www.iloveimg.com/)
-
