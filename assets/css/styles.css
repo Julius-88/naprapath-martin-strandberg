@@ -30,6 +30,7 @@ header {
     display: flex;
     list-style-type: none;
     margin-right: 30px;
+    flex-wrap: wrap;
 }
 
 #nav-menu a {
@@ -96,10 +97,8 @@ header {
     background-color: rgba(0, 0, 0, 0.404);
 }
 
-#partner-section>h2 {
+#partner-section {
     text-align: center;
-    letter-spacing: 5px;
-    font-weight: 200;
 }
 
 #partner-content img {
@@ -137,25 +136,6 @@ header {
     margin-bottom: 10px;
 }
 
-/* Symptom Page  */
-
-#cover-text-symptom {
-    height: 200px;
-}
-
-/* Treatment Page */
-
-#cover-text-treatment {
-    height: 200px;
-}
-
-/* Contact Page  */
-
-#cover-text-contact {
-    height: 250px;
-    width: 350px;
-}
-
 /* Form Response */
 
 #form-response-container {
@@ -164,18 +144,19 @@ header {
     justify-content: center;
     display: flex;
     flex-direction: column;
+    color: #E6E6FA;
 }
 
 #form-response-content {
-    background-color: #f5f5f5;
+    background-color: rgba(63, 104, 63, 0.795);
     width: 90%;
     margin: 0 auto;
-    padding: 30px;
-    font-size: 1rem;
+    padding: 10% 10px;
+    font-size: 90%;
 }
 
 #form-response-content p {
-    margin-bottom: 5px;
+    margin: 10px;
 }
 
 /* Footer  */
@@ -189,10 +170,14 @@ header {
 
 .footer-top {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     font-size: 110%;
-    margin: 0 2px;
-    margin-top: 1px;
+    padding: 10px;
+}
+
+.footer-top h3 {
+    padding: 10px;
+    text-align: center;
 }
 
 #opening-hours {
@@ -207,21 +192,50 @@ header {
     font-size: 110%;
     width: 100%;
     padding-bottom: 5px;
+    text-align: center;
 }
 
 .footer-bottom a {
     margin-bottom: 30px;
+    color: black;
+    text-decoration: none;
+}
+
+.footer-bottom a:hover {
+    color: #32CD32;
+    text-decoration: underline;
+}
+
+td {
+    padding: 10px;
 }
 
 /* General styles for repeated use */
 
+/* For titles  */
+.title {
+    padding: 10px;
+}
+
 /* Link to Email  */
 .email {
     text-decoration: none;
-    color: black;
+    color: inherit;
 }
 
 .email:hover {
+    text-decoration: solid underline;
+    color: #32CD32;
+}
+
+/* Link to Phone */
+
+.phone {
+    text-decoration: none;
+    color: inherit;
+}
+
+.phone:hover {
     text-decoration: solid underline;
     color: #32CD32;
 }
@@ -250,6 +264,7 @@ details {
 summary {
     background-color: #f5f5f5;
     cursor: pointer;
+    padding: 10px;
 }
 
 details p {
@@ -299,9 +314,9 @@ details ul li {
     font-size: 130%;
     letter-spacing: 2px;
     width: 300px;
-    height: 250px;
-    padding-top: 20px;
-    padding-left: 10px;
+    height: auto;
+    padding: 10px;
+    margin: 10px;
     background-color: rgba(63, 104, 63, 0.795);
     bottom: 30px;
     left: 10%;
@@ -322,6 +337,7 @@ details ul li {
     cursor: pointer;
     background-color: #90EE90;
     box-shadow: 0px 2px 3px grey;
+    font-size: 1rem;
 }
 
 .button:hover {
@@ -411,9 +427,10 @@ form {
 /* For Medium sized screens, 950px wide and down  */
 @media screen and (max-width: 950px) {
     #nav-menu {
-        width: auto;
         margin: auto;
-        font-size: 49%;
+        font-size: 1rem;
+        line-height: 2;
+        justify-content: center;
     }
 
     #nav-menu a:hover {
@@ -468,16 +485,33 @@ form {
         min-width: 100%;
     }
 
-    #cover-text-contact {
+    #cover-text-small-screen {
         left: auto;
+        width: auto;
     }
 
     .footer-top {
-        font-size: 70%;
+        font-size: 1rem;
+        display: flex;
+        flex-direction: column;
+        padding: 5px;
     }
 
-    .footer-content {
-        min-height: 100%;
+    .footer-top div {
+        padding: 10px;
+        line-height: 2;
+    }
+
+    .footer-top h3 {
+        text-align: start;
+    }
+
+    td {
+        padding: 3px;
+    }
+
+    #opening-hours {
+        align-items: flex-start;
     }
 
     .hero-img-landing {
@@ -492,42 +526,4 @@ form {
         background: url(../images/hero-img-symptom-small.jpg) no-repeat center center;
     }
 
-
-}
-
-/* For Smaller screen sizes, 500px wide and down  */
-
-@media screen and (max-width: 500px) {
-    .footer-bottom {
-        font-size: 49%;
-    }
-
-    .footer-top {
-        font-size: 49%;
-    }
-
-    .footer-content {
-        min-height: 100%;
-    }
-
-    #contact-button {
-        padding: 5px;
-        font-size: 100%;
-    }
-
-    #cover-text {
-        left: 0;
-        height: 150px;
-        width: 200px;
-        font-size: 70%;
-        bottom: 80px;
-    }
-}
-
-/* For Smaller screen sizes, 400px wide and down  */
-
-@media screen and (max-width: 400px) {
-    .footer-top {
-        font-size: 43%;
-    }
 }
