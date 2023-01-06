@@ -157,8 +157,16 @@
 </p>
 
 - Accessibility was tested through Lighthouse in dev tools. 
-    - Validation for mobile ![Lighthouse for Mobile version](./documentation/lighthouse-mobile-validation.JPG)
-    - Validation for desktop ![Lighthouse for Desktop version](./documentation/lighthouse-desktop-validation.JPG)
+    - Validation for landing page mobile ![Lighthouse for Mobile version](./documentation/lighthouse-landing-mobile-validation.JPG)
+    - Validation for landing page desktop ![Lighthouse for Desktop version](./documentation/lighthouse-landing-desktop-validation.JPG)
+    - Validation for symptom page mobile ![Lighthouse for Mobile version](./documentation/lighthouse-symptom-mobile-validation.JPG)
+    - Validation for symptom page desktop ![Lighthouse for Desktop version](./documentation/lighthouse-symptom-desktop-validation.JPG)
+    - Validation for treatment page mobile ![Lighthouse for Mobile version](./documentation/lighthouse-treatment-mobile-validation.JPG)
+    - Validation for treatment page desktop ![Lighthouse for Desktop version](./documentation/lighthouse-treatment-desktop-validation.JPG)
+    - Validation for contact page mobile ![Lighthouse for Mobile version](./documentation/lighthouse-contact-mobile-validation.JPG)
+    - Validation for contact page desktop ![Lighthouse for Desktop version](./documentation/lighthouse-contact-desktop-validation.JPG)
+    - Validation for response page mobile ![Lighthouse for Mobile version](./documentation/lighthouse-response-mobile-validation.JPG)
+    - Validation for response page desktop ![Lighthouse for Desktop version](./documentation/lighthouse-response-desktop-validation.JPG)
 
 ## Unfixed Bugs
 
