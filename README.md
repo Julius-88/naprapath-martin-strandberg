@@ -141,8 +141,14 @@
     - During my initial test it would seem I had combined a link and a button. This has been fixed. Here is a picture of the Error,![error](./documentation/html-validator-problem-one.JPG)
     - Upon testing the landing page I received this Error,![error](./documentation/html-validator-problem-two.JPG) it has been resolved now. I should have used h2 instead of figcaption.
     - Upon third testing, no errors were returned.
+        - testing landing page ![Landing Page Validation](./documentation/html-landing-page-validation.JPG)
+        - testing symptom page ![Symptom Page Validation](./documentation/html-symptom-page-validation.JPG)
+        - testing treatment page ![Treatment Page Validation](./documentation/html-treatment-page-validation.JPG)
+        - testing contact page ![Contact Page Validation](./documentation/html-contact-page-validation.JPG)
+        - testing form response page ![Form Response Page Validation](./documentation/html-form-response-validation.JPG)
 - CSS Validation was tested through [W3C](https://jigsaw.w3.org/css-validator/#validate_by_input)
-    - No errors were returned.<p>
+    - One error was returned and has been fixed. ![CSS error](./documentation/css-validator-error.JPG)
+    - Upon a second testing. no errors were returned ![CSS Validation](./documentation/css-validation.JPG) <p>
     <a href="http://jigsaw.w3.org/css-validator/check/referer">
         <img style="border:0;width:88px;height:31px"
             src="http://jigsaw.w3.org/css-validator/images/vcss"
@@ -174,19 +180,17 @@ The website will now be deployed in a couple of minutes.
 ## Credit
 
 ### Content
-- The original site that the owner owns is this: [Martin Strandberg](http://www.naprapatmartinstrandberg.se/)
-    - Since the idea was to create a new website for him, I used some of his text as a base and altered them. I used what information he had given about his treatments and filled out the rest using Wikipedia. 
+- The original website that the owner has is this: [Martin Strandberg](http://www.naprapatmartinstrandberg.se/)
+    - Since the idea was to create a new website for him, I used some of his text as a base and altered them. I used what information he had given about his treatments and filled out the rest using Wikipedia and my own custom text.
 
 - I used a code-along project we did with Code Institute as a base reference point to structure the code.
     - It is called [Love Running](https://github.com/Code-Institute-Solutions/love-running-2.0-sourcecode)
     - The animation effect on the hero image was taken from this project.
 
 - I used a real site for inspiration for the design of the website. [naprapatklinik018](https://naprapatklinik018.se/)
-    - I tried to imagine what the owner of the site 
-
 
 I have used a combination of [MDN Web Docs](https://developer.mozilla.org/en-US/), [W3schools](https://www.w3schools.com/) and [Code Institute's](https://codeinstitute.net/se/) learning program to learn about various code and how they should be implemented.
 
 ### Media
 
-- All pictures were taken from the owner's Facebook page and [Pexels](https://www.pexels.com/sv-se/) and modified with [I Love IMG](https://www.iloveimg.com/)
+- All pictures were taken from the owner's [Facebook Page](https://www.facebook.com/people/Naprapat-Nordic-Wellness-%C3%85kersberga/100063561190738/) and [Pexels](https://www.pexels.com/sv-se/) and modified with [I Love IMG](https://www.iloveimg.com/)
