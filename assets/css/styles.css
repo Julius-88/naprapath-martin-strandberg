@@ -384,8 +384,12 @@ form {
     align-items: center;
     border: 1px solid black;
     border-radius: 5px;
-    padding: 10px;
+    padding: 5%;
     background-color: #E6E6FA;
+}
+
+form label {
+    padding: 10px;
 }
 
 .form-input {
@@ -393,6 +397,8 @@ form {
     border-radius: 2px;
     margin: 5px 0 20px 0;
     cursor: pointer;
+    padding: 10px;
+    border-radius: 5px;
 }
 
 .form-button {
