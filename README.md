@@ -11,7 +11,7 @@
 
 **Project context:**
 
-<sub><em>This is an independent student concept and was not commissioned by or officially affiliated with the business. The existing website was used as a reference when exploring a more modern and responsive design.</em></sub>
+*This is an independent student concept and was not commissioned by or officially affiliated with the business. The existing website was used as a reference when exploring a more modern and responsive design.*
 
 ## Existing Features
 
